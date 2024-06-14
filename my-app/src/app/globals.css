@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-container {
+  height: calc(100% - 68px - 6rem);
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 39% 59%;
+  gap: 2%;
+}
+
+.messages-section {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 79% 19%;
+  gap: 2%;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 69% 29%;
+  gap: 2%;
+}
